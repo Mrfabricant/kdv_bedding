@@ -1,0 +1,9 @@
+{
+ "app": "kdv_bedding",
+ "color": "#1D9E75",
+ "doctype": "Module Def",
+ "icon": "fa fa-industry",
+ "module_name": "KDV Bedding",
+ "name": "KDV Bedding",
+ "restricted": 0
+}

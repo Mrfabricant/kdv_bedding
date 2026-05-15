@@ -1,0 +1,79 @@
+/* KDV Bedding — Custom Styles */
+
+/* Fiscal status badge on invoice list */
+.fiscal-badge {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 10px;
+	font-size: 11px;
+	font-weight: 500;
+}
+.fiscal-badge.submitted { background: #d4edda; color: #155724; }
+.fiscal-badge.failed    { background: #f8d7da; color: #721c24; }
+.fiscal-badge.pending   { background: #fff3cd; color: #856404; }
+.fiscal-badge.voided    { background: #e2e3e5; color: #383d41; }
+
+/* QR code wrapper in invoice form */
+.qr-code-wrapper {
+	border: 1px solid var(--border-color);
+	border-radius: 6px;
+	padding: 12px;
+	display: inline-block;
+	background: #fff;
+}
+
+/* KDV Dashboard card overrides */
+.kdv-kpi-card {
+	border-left: 3px solid var(--primary);
+	padding: 16px;
+}
+.kdv-kpi-card .kpi-value {
+	font-size: 28px;
+	font-weight: 600;
+	color: var(--text-color);
+}
+.kdv-kpi-card .kpi-label {
+	font-size: 12px;
+	color: var(--text-muted);
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+.kdv-kpi-card .kpi-change {
+	font-size: 12px;
+	margin-top: 4px;
+}
+.kdv-kpi-card .kpi-change.up   { color: var(--green); }
+.kdv-kpi-card .kpi-change.down { color: var(--red); }
+
+/* Reorder alert row highlight */
+.below-reorder { background: #fff3cd !important; }
+.critical-reorder { background: #f8d7da !important; }
+
+/* Production efficiency progress bar */
+.efficiency-bar {
+	height: 6px;
+	border-radius: 3px;
+	background: var(--border-color);
+	overflow: hidden;
+}
+.efficiency-bar .fill {
+	height: 100%;
+	border-radius: 3px;
+	transition: width 0.5s ease;
+}
+.efficiency-bar .fill.high   { background: var(--green); }
+.efficiency-bar .fill.medium { background: var(--orange); }
+.efficiency-bar .fill.low    { background: var(--red); }
+
+/* Migration page file upload areas */
+.migration-upload-area {
+	border: 2px dashed var(--border-color);
+	border-radius: 8px;
+	padding: 24px;
+	text-align: center;
+	cursor: pointer;
+	transition: border-color 0.2s;
+}
+.migration-upload-area:hover {
+	border-color: var(--primary);
+}

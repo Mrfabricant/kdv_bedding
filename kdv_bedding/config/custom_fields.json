@@ -1,0 +1,136 @@
+[
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Invoice",
+    "fieldname": "custom_fiscal_section",
+    "fieldtype": "Section Break",
+    "label": "ZIMRA Fiscalisation",
+    "insert_after": "against_income_account",
+    "collapsible": 1,
+    "collapsible_depends_on": "eval:doc.custom_fiscal_status == 'Submitted'",
+    "module": "KDV Bedding"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Invoice",
+    "fieldname": "custom_fiscal_status",
+    "fieldtype": "Select",
+    "label": "Fiscal Status",
+    "options": "\nPending\nSubmitted\nFailed\nVoided",
+    "insert_after": "custom_fiscal_section",
+    "in_list_view": 1,
+    "in_standard_filter": 1,
+    "read_only": 1,
+    "module": "KDV Bedding"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Invoice",
+    "fieldname": "custom_fiscal_day_no",
+    "fieldtype": "Data",
+    "label": "Fiscal Day No",
+    "insert_after": "custom_fiscal_status",
+    "read_only": 1,
+    "module": "KDV Bedding"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Invoice",
+    "fieldname": "custom_receipt_counter",
+    "fieldtype": "Data",
+    "label": "Receipt Counter",
+    "insert_after": "custom_fiscal_day_no",
+    "read_only": 1,
+    "module": "KDV Bedding"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Invoice",
+    "fieldname": "custom_col_break_fiscal",
+    "fieldtype": "Column Break",
+    "insert_after": "custom_receipt_counter",
+    "module": "KDV Bedding"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Invoice",
+    "fieldname": "custom_fiscal_signature",
+    "fieldtype": "Small Text",
+    "label": "Fiscal Signature",
+    "insert_after": "custom_col_break_fiscal",
+    "read_only": 1,
+    "module": "KDV Bedding"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Invoice",
+    "fieldname": "custom_qr_code",
+    "fieldtype": "Small Text",
+    "label": "Fiscal QR Code",
+    "insert_after": "custom_fiscal_signature",
+    "read_only": 1,
+    "module": "KDV Bedding"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Invoice",
+    "fieldname": "custom_fiscal_error",
+    "fieldtype": "Small Text",
+    "label": "Fiscal Error",
+    "insert_after": "custom_qr_code",
+    "read_only": 1,
+    "module": "KDV Bedding"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Order",
+    "fieldname": "custom_pipeline_status",
+    "fieldtype": "Select",
+    "label": "Pipeline Status",
+    "options": "\nActive\nOverdue\nAt Risk\nClosed",
+    "insert_after": "status",
+    "in_list_view": 1,
+    "in_standard_filter": 1,
+    "module": "KDV Bedding"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Work Order",
+    "fieldname": "custom_production_efficiency",
+    "fieldtype": "Float",
+    "label": "Production Efficiency %",
+    "insert_after": "produced_qty",
+    "read_only": 1,
+    "module": "KDV Bedding"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Work Order",
+    "fieldname": "custom_cycle_time_days",
+    "fieldtype": "Float",
+    "label": "Cycle Time (Days)",
+    "insert_after": "custom_production_efficiency",
+    "read_only": 1,
+    "module": "KDV Bedding"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Customer",
+    "fieldname": "custom_sage_account_code",
+    "fieldtype": "Data",
+    "label": "Sage Account Code",
+    "insert_after": "customer_name",
+    "search_index": 1,
+    "module": "KDV Bedding"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Supplier",
+    "fieldname": "custom_sage_account_code",
+    "fieldtype": "Data",
+    "label": "Sage Account Code",
+    "insert_after": "supplier_name",
+    "search_index": 1,
+    "module": "KDV Bedding"
+  }
+]

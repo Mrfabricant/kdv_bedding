@@ -1,0 +1,4 @@
+frappe
+requests
+qrcode[pil]
+cryptography

@@ -1,0 +1,28 @@
+[
+ {
+  "charts": [],
+  "content": "[{\"id\":\"A4ByYiWVVr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">KDV Bedding Dashboard</span>\",\"col\":12}},{\"id\":\"8A6IWaKJhh\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Open Sales Orders\",\"col\":3}},{\"id\":\"B1LgHc4tff\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Work Orders\",\"col\":3}},{\"id\":\"BsmtTSTvQC\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Active Items\",\"col\":3}},{\"id\":\"3kplXlh_5d\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Pending Purchase Orders\",\"col\":3}},{\"id\":\"ZLsgl1ezy2\",\"type\":\"card\",\"data\":{\"card_name\":\"Selling section:\",\"col\":4}},{\"id\":\"XrgAAsh-4L\",\"type\":\"card\",\"data\":{\"card_name\":\"Buying section:\",\"col\":4}},{\"id\":\"L6rdfCMKOw\",\"type\":\"card\",\"data\":{\"card_name\":\"Manufacturing section:\",\"col\":4}},{\"id\":\"sq8aueKvHy\",\"type\":\"card\",\"data\":{\"card_name\":\"Stock section:\",\"col\":4}},{\"id\":\"emrfMXp6zR\",\"type\":\"card\",\"data\":{\"card_name\":\"KDV Custom:\",\"col\":4}},{\"id\":\"MMXCC_VYWR\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Sales Order Trends\",\"col\":12}},{\"id\":\"GkvPknDMIY\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Purchase Order Trends\",\"col\":12}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "",
+  "indicator_color": "cyan",
+  "is_hidden": 0,
+  "label": "KDV Bedding Dashboard",
+  "links": [],
+  "modified": "2026-05-15 03:32:41.406682",
+  "module": "KDV Bedding",
+  "name": "KDV Bedding Dashboard",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [],
+  "sequence_id": 1.0,
+  "shortcuts": [],
+  "title": "KDV Bedding Dashboard"
+ }
+]
