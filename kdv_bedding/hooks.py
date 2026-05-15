@@ -45,24 +45,12 @@ fixtures = [
 "filters": [["module", "in", ["KDV Bedding"]]]
 },
 {
-"doctype": "Client Script",
-"filters": [["module", "in", ["KDV Bedding"]]]
-},
-{
-"doctype": "Server Script",
-"filters": [["module", "in", ["KDV Bedding"]]]
-},
-{
 "doctype": "Workspace",
 "filters": [["module", "in", ["KDV Bedding"]]]
 },
 {
 "doctype": "Number Card",
 "filters": [["name", "in", ["Open Sales Orders", "Active Work Orders", "Total Active Items", "Unpaid Invoices"]]]
-},
-{
-"doctype": "Dashboard Chart",
-"filters": [["name", "in", ["Sales Order Trends", "Purchase Order Trends"]]]
 },
 ]
 
